@@ -9,5 +9,5 @@ CREATE TABLE Agents(
     AssignedClients TEXT,
     PropertiesSold INT,
     PropertiesRented INT,
-    Commision DOUBLE
+    Commision DECIMAL(10, 2)
 );

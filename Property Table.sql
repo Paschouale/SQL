@@ -10,5 +10,5 @@ CREATE TABLE Properties (
   RoomNumber INT NOT NULL,
   Features VARCHAR(255) NOT NULL,
   AvailabilityStatus ENUM('available','sold','rented') NOT NULL,
-  Price DOUBLE NOT NULL
+  Price DECIMAL(10, 2) NOT NULL
 );

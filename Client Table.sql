@@ -9,6 +9,6 @@ CREATE TABLE Clients (
     Adress VARCHAR(100),
     PrefferedLocation VARCHAR(100),
     PrefferedPropertyType VARCHAR(100),
-    BudgetRange DOUBLE,
+    BudgetRange DECIMAL(10, 2),
     Notes TEXT
 );
