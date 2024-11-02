@@ -10,5 +10,7 @@ CREATE TABLE Clients (
     PrefferedLocation VARCHAR(100),
     PrefferedPropertyType VARCHAR(100),
     BudgetRange DECIMAL(10, 2),
-    Notes TEXT
+    Notes TEXT,
+    AgentID INT,
+    FOREIGN KEY (AgentID) REFERENCES Agents(AgentID)
 );
